@@ -3,7 +3,8 @@ body {margin: 0 0;
     width: 100%; 
     font-family: 'Roboto'; 
     color: #33393b;
-    background-color: #f1f0e2;}
+    background-color: #f1f0e2;
+    background-image: url("images/diamondDecoCopy.jpg");}
 
     /* Navigation stuff */
 .topNav {position: fixed; 
