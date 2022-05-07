@@ -1,5 +1,4 @@
 body {margin: 0 0;
-    overflow: scroll;
     width: 100%; 
     font-family: 'Roboto'; 
     color: #33393b;
@@ -47,7 +46,8 @@ p {line-height: 1.5em;}
     font-family: 'Roboto Slab'; 
     font-weight: 500; 
     color: #f1f0e2;}
-.iAm button:hover {background-color: #fca289;}
+.iAm button:hover {background-color: #fca289;
+    color: #133955;}
 
     /* Diamond divider */
 #skills {padding: 2% 16%;}
