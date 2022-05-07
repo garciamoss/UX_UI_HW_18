@@ -4,7 +4,12 @@ body {margin: 0 0;
     font-family: 'Roboto'; 
     color: #33393b;
     background-color: #f1f0e2;}
-    
+h1 {font-family: 'Roboto Slab'; 
+        color: #33393b; 
+        font-size: 48px; 
+        font-weight: 400; 
+        margin-bottom: -1%;} 
+p {line-height: 1.5em;}
 
     /* Navigation stuff */
 .topNav {position: fixed; 
@@ -35,12 +40,6 @@ body {margin: 0 0;
     padding: 10% 25%; 
     display: flex;}
 .iAm img {padding-right: 30px;}
-.iAm h1 {font-family: 'Roboto Slab'; 
-    color: #33393b; 
-    font-size: 48px; 
-    font-weight: 400; 
-    margin-bottom: -1%;} 
-.iAm p {line-height: 1.5em;}
 .iAm button {background-color: #133955; 
     border: 1px none #133955; 
     border-radius: 12px; 
@@ -57,10 +56,35 @@ body {margin: 0 0;
 /* Synopses */
 #synopses {padding: 2% 12%;
     display: flex;
-    margin-bottom: 25%;}
+    margin-bottom: 12%;}
 #synopses div {padding: 0 2%;}
 #synopses h4 {margin-bottom: -1%;}
 #synopses p {line-height: 1.25em;}
+
+/* uxUI */
+#uxUI {padding: 8% 25%; 
+    display: flex;
+    margin-bottom: 12%;}
+#uxUI img {padding-right: 30px;}
+
+/* graphicDesign */ 
+#graphicDesign {padding: 8% 25%; 
+    display: flex;
+    margin-bottom: 12%;}
+#graphicDesign img{padding-right: 30px;}
+
+/* digitalMedia */
+#digitalMedia {padding: 8% 25%; 
+    display: flex;
+    margin-bottom: 12%;}
+#digitalMedia img{padding-right: 30px;}
+
+/* illustrations */
+#illustrations {padding: 8% 25%; 
+    display: flex;
+    margin-bottom: 12%}
+#illustrations img {padding-right: 30px;}
+
 footer {width: 100%; 
     height: 48px; 
     padding: 10px; 
