@@ -14,6 +14,7 @@ p {line-height: 1.5em;}
     align-items: center;
     margin-bottom: 12%;}
 .ornament img {margin: 0 auto;}
+
     /* Navigation stuff */
 .topNav {position: fixed; 
     z-index: 1;
@@ -40,7 +41,7 @@ p {line-height: 1.5em;}
     /* Hero area stuff */
 #heroImg {position: relative; 
     height: 300px; 
-    padding: 10% 25%; 
+    padding: 10% 18%; 
     display: flex;}
 .iAm img {padding-right: 30px;}
 .iAm button {background-color: #133955; 
@@ -55,6 +56,7 @@ p {line-height: 1.5em;}
 
     /* Diamond divider */
 #skills {padding: 2% 16%;}
+#uxDiamonds {padding: 2% 32%;}
 .diamonds img {height: 60px;}
 
 /* Synopses */
@@ -66,10 +68,16 @@ p {line-height: 1.5em;}
 #synopses p {line-height: 1.25em;}
 
 /* uxUI */
-#uxUI {padding: 8% 25%; 
+#uxUI {padding: 6% 18% 2% 18%; 
+    display: flex;
+    margin-bottom: 2%;}
+#uxUI img {padding-right: 30px;}
+#uxSkills {padding: 2% 12%;
     display: flex;
     margin-bottom: 6%;}
-#uxUI img {padding-right: 30px;}
+#uxSkills div {padding: 0 2%;}
+#uxSkills h4 {margin-bottom: -1%;}
+#uxSkills p {line-height: 1.25em;}
 
 /* graphicDesign */ 
 #graphicDesign {padding: 8% 25%; 
