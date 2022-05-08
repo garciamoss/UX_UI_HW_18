@@ -78,7 +78,12 @@ p {line-height: 1.5em;}
 #uxSkills div {padding: 0 2%;}
 #uxSkills h4 {margin-bottom: -1%;}
 #uxSkills p {line-height: 1.25em;}
-
+.myUXUIWork {padding: 0 10%;
+    flex-direction: row;
+    width: 100%;
+    display: flex;}
+.workGrid {width: 50%;}
+.workGridText {width: 555px;}
 /* graphicDesign */ 
 #graphicDesign {padding: 8% 25%; 
     display: flex;
